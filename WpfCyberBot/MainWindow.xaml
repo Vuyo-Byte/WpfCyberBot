@@ -29,7 +29,7 @@
 
         </StackPanel>
         <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="95,390,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="378" Height="23" TextChanged="TextBox_TextChanged"/>
-        <Button Content="Send Messege" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="531,390,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
+        <Button Content="Send Messege" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="530,390,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
 
 
     </Grid>
