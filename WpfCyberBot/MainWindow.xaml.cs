@@ -21,6 +21,7 @@ namespace CyberChatBot
         {
             InitializeComponent();
 
+
             bot = new ChatBot("CyberBot");
             user = null;
             audioPlayer = new AudioPlayer();
