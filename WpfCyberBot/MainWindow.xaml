@@ -20,7 +20,7 @@
         <StackPanel Grid.Row="0"
                     HorizontalAlignment="Center"
                     Margin="0,0,0,15">
-
+ 
             <TextBlock TextWrapping="NoWrap"
                        FontFamily="Consolas"
                        FontSize="11"
