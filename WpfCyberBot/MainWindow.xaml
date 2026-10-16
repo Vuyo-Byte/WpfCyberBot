@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfCyberBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCyberBot"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="80" Margin="300,18,0,0" VerticalAlignment="Top" Width="143" Source="/image_1c8ab0d3.jpg"/>
+        <Label Content="Cyber Chat" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="327,115,0,0" VerticalAlignment="Top" Width="97" FontWeight="Bold" FontFamily="Bahnschrift" FontSize="16"/>
+        <StackPanel Grid.ColumnSpan="2" Margin="0,171,0,105">
+            <Grid>
+                <Image Source="/free-user-icon.png" Margin="750,3,4,40"/>
+            </Grid>
+            <Grid>
+                <Image Source="/ICON.png" RenderTransformOrigin="0.238,0.596" Margin="6,2,730,1"/>
+            </Grid>
+
+
+
+
+
+
+
+        </StackPanel>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="95,390,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="378" Height="23" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Send Messege" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="531,390,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>

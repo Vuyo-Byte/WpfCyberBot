@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bot icon.png" />
+    <None Remove="free-user-icon.png" />
+    <None Remove="ICON.png" />
+    <None Remove="image_1c8ab0d3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bot icon.png" />
+    <Resource Include="free-user-icon.png" />
+    <Resource Include="ICON.png" />
+    <Resource Include="image_1c8ab0d3.jpg" />
+  </ItemGroup>
+
+</Project>
